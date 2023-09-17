@@ -1,0 +1,27 @@
+{
+  "name": "login-signup-using-backend",
+  "version": "1.0.0",
+  "description": "This repo is made with love and contains a login-signup form build using node-express , mongodb and mongoose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dev-42/Login-Signup-using-BACKEND.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dev-42/Login-Signup-using-BACKEND/issues"
+  },
+  "homepage": "https://github.com/Dev-42/Login-Signup-using-BACKEND#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "mongoose": "^7.5.2",
+    "nodemon": "^3.0.1"
+  }
+}
